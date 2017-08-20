@@ -1,11 +1,14 @@
 
 <ul>
-    {% for news in site.categories[include.listType] %}
+    {% for post in site.categories[include.listType] %}
         <li>
             <!-- date: '%Y-%B-%d' -->
             <!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
-            <span class="date">{{ news.date | date: "%Y-%m-%d" }} | </span>
-            <a href="">{{ news.title }}</a>
+                                <!-- don't need to put slash here -->
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <span class="date">{{ post.date | date: "%Y-%m-%d" }} | </span>
+                {{ post.title }}
+            </a>
         </li>
     {% endfor %}
 </ul>
