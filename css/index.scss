@@ -1,0 +1,20 @@
+---
+---
+
+* {
+    box-sizing: border-box;
+}
+
+@import "reset";
+@import "color";
+@import "header";
+@import "footer";
+
+section {
+    background-color: $color-section-background;
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
