@@ -1,0 +1,13 @@
+@import "color";
+
+footer {
+    background-color: $color-footer-background;
+    color: $color-footer;
+    padding: 10px;
+    .container {
+        font-size: 10px;
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

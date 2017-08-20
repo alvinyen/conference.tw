@@ -1,0 +1,18 @@
+---
+---
+
+* {
+    box-sizing: border-box;
+}
+
+@import "reset";
+@import "color";
+@import "header";
+@import "footer";
+
+body {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
