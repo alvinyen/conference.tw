@@ -1,6 +1,6 @@
 ---
 layout: agenda-article
-title: 2017-08-07-test-news-2
+title: 2017-08-07-test-agenda-2
 date: 2017-08-07
 category: agenda
 ---
