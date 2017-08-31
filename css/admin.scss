@@ -11,7 +11,7 @@
 @import "footer";
 @import "mixin";
 
-section {
+main {
     background-color: $color-section-background;
     height: calc(100vh - 85px);
     .container {
@@ -21,5 +21,5 @@ section {
 }
 
 body {
-    background-color: red;
+    // background-color: red;
 }
